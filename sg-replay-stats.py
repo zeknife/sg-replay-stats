@@ -70,8 +70,8 @@ if __name__ == "__main__":
     print(f"Shortest replay: {shortest}")
 
     # Blabla... outlier stuff. maybe make a function for this
-    # percentile = np.percentile(lengths, 0.01)
-    # percentileupper = np.percentile(lengths, 99.9)
+    percentile = np.percentile(lengths, 0.01)
+    percentileupper = np.percentile(lengths, 99.9)
     # print(percentile)
     # outliers = lengths[lengths < percentile]
     # outlierpaths = paths[lengths < percentile]
